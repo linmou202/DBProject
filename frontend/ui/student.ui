@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>student_interface</class>
+ <widget class="QMainWindow" name="student_interface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>622</width>
+    <height>332</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>学生界面</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="ask_maintenance">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>102</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>维修信息管理</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="student_info">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>40</y>
+      <width>591</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>占位符，这里输出该学生的姓名，公寓，宿舍</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_visitor">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>100</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>访问信息管理</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="check_admin">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>190</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查看管理员信息</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="change_info">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>190</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>更改个人信息</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
